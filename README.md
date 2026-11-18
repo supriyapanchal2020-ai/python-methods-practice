@@ -1,17 +1,26 @@
 # Python Methods Practice 🐍
 
-Practice repo for Python methods - written and pushed by me while learning Python.
+Hi! I'm Supriya 👋
+This is my Python learning journey. I am practicing Python methods one by one and pushing them to GitHub.
 
-## Files in this repo
+## ✨ String Methods
+- upper.py - converts to UPPERCASE
+- lower.py - converts to lowercase
+- title.py - converts to Title Case
+- capitalize.py - Capitalizes first letter
+- strip.py - removes extra spaces
+- replace.py - replaces one word with another
+- split.py - splits sentence into list
+- join.py - joins list into sentence
+- string_methods.py - all string methods together
 
-- `string_methods.py` - upper, lower, strip, title, replace, split, join, find, count, startswith, endswith
-- `list_methods.py` - append, insert, remove, sort, reverse, count, index
-- `tuple_methods.py` - count, index
-- `dict_methods.py` - keys, values, items, get, update, pop
-- `set_methods.py` - add, remove, union, intersection, difference
+## 📚 Other Methods
+- list_methods.py
+- dict_methods.py
+- set_methods.py
+- tuple_methods.py
 
-## How to run
-
+## 🚀 How to Run
 ```bash
-python string_methods.py
-python list_methods.py
+python upper.py
+python lower.py
