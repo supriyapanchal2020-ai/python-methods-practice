@@ -1,0 +1,21 @@
+# dict methods - simple examples
+
+student = {'name': 'Priya', 'age': 22, 'city': 'Bengaluru'}
+print(student)
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student.get('name'))
+print(student.get('marks', 'Not found'))
+student.update({'age': 23, 'course': 'Python'})
+print(student)
+print(student.pop('city'))
+print(student)
+print(student.popitem())
+print(student)
+print(student.setdefault('city', 'Bengaluru'))
+print(student)
+student2 = student.copy()
+print(student2)
+student2.clear()
+print(student2)
